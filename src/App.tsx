@@ -1,6 +1,6 @@
 import React from 'react'
 import Sidebar from './sidebar/Sidebar'
-import MainSection from './sidebar/MainSection/MainSection'
+import MainSection from './MainSection/MainSection'
 import './App.css'
 
 function App() {
