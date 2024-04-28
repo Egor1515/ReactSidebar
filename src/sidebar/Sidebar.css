@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+
+}
+
+ul {
+	list-style: none;
+}
+
+
+
+.link-list>li>a {
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	transition: background-color 0.4s;
+	border-radius: 8px;
+}
+
+.wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 16rem;
+	background-color: #1F2837;
+}
+
+.sidebar {
+	height: 100vh;
+	padding: 16px 12px;
+	/* Добавляем авто скрол внутри блока если много контента*/
+	overflow: auto;
+	background-color: #1F2837;
+}
+
+.link-list {
+	margin-top: 0.5rem;
+	font-weight: 500;
+}
+
+svg {
+	flex-shrink: 0;
+	width: 1.25rem;
+	height: 1.25rem;
+	color: #9CA3AF;
+	transition: color 0.4s;
+}
+
+a.group:hover {
+	background-color: #374151;
+}
+
+a.group:hover svg {
+	color: white;
+}
+.link-list>li>a>span.title {
+	margin-left: 12px;
+}
+
+.link-list li a span.title-description {
+	margin-left: auto;
+	padding: 8px;
+	background-color: #374151;
+	border-radius: 8px;
+}
+
+.link-list li a span.users-amount {
+	display: inline-flex;
+	background-color: rgba(0, 0, 255, 0.396);
+}
