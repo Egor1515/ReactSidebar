@@ -1,10 +1,13 @@
 import React from 'react'
-import logo from './logo.svg'
 import Sidebar from './sidebar/Sidebar'
+import MainSection from './sidebar/MainSection/MainSection'
+import './App.css'
+
 function App() {
 	return (
-		<div className=''>
-			<Sidebar />
+			<div className='app'>
+				<Sidebar />
+				<MainSection />
 		</div>
 	)
 }

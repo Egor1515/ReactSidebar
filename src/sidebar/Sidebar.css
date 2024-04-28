@@ -26,12 +26,11 @@ ul {
 }
 
 .wrapper {
-	position: fixed;
-	top: 0;
-	left: 0;
+
 	height: 100vh;
 	width: 16rem;
 	background-color: #1F2837;
+	border-right: 1px solid gray;
 }
 
 .sidebar {
